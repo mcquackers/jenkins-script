@@ -3,7 +3,6 @@ cd data-services-ui
 cd generator-integrated-tests-mediamath
 npm link
 cd ../js-tests
-# echo "aperture_user", "aperture"  | yo integrated-tests-mediamath
 yo integrated-tests-mediamath << EOF
 aperture_user
 aperture
